@@ -1,7 +1,7 @@
 _id: req_532851a2d7644713ad293e3bcd3fc643
 type: Request
 parentId: fld_8597592212ce484bb12b0f176cff8185
-modified: 1707272110592
+modified: 1707873239868
 created: 1707271791180
 url: http://localhost:4001/api/v1/me
 name: get user profile
@@ -14,8 +14,8 @@ headers:
     value: insomnia/2023.5.8
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1YzJkZDg1NmQwY2Y4MGE3MWY1NThhYyIsImlhdCI6MTcwNzI3MTg3NSwiZXhwIjoxNzA3ODc2Njc1fQ.4aD56sk3mvGiePy0HHwYyKI8uHwzuLKZzrRlewAqVmE
-  prefix: user
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Y2MxMjQ0MzQ5MmRiMmZiY2Y5MzQ5YSIsImlhdCI6MTcwNzg3Mjg3NywiZXhwIjoxNzA4NDc3Njc3fQ.jswEoANJZgXryQb4PTpHytNPf9pdd1NJqkkPWLrcCvE
+  prefix: buyer
 metaSortKey: -1707271791180
 isPrivate: false
 settingStoreCookies: true
