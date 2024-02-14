@@ -1,7 +1,7 @@
 _id: req_dbabbc133d57479c88d41954d2a7033c
 type: Request
 parentId: fld_8597592212ce484bb12b0f176cff8185
-modified: 1707874973763
+modified: 1707877130540
 created: 1707272707368
 url: http://localhost:4001/api/v1/me/update
 name: update profile
@@ -11,11 +11,11 @@ body:
   mimeType: multipart/form-data
   params:
     - name: name
-      value: kinoryou
+      value: REYU
       id: pair_1e41ca7eb80c49bf9605284ccd85d875
     - id: pair_a8a76804f1244bd68e853b4d8ad71b23
       name: email
-      value: kinoshita@gmail.com
+      value: garcia2@gmail.com
       description: ""
     - id: pair_97b5bf6bf9854c2e9aabb44b828807ef
       name: avatar
@@ -23,6 +23,7 @@ body:
       description: ""
       type: file
       fileName: C:\Users\pc\Downloads\pic2.jpg
+      disabled: true
 parameters: []
 headers:
   - name: Content-Type
@@ -34,7 +35,7 @@ headers:
     id: pair_f7b4bab8d8004d6fb3e9c4b52cc64e4e
 authentication:
   type: bearer
-  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Y2MxOWNlZWM5ZjkzMDJlNDgwNjYxMCIsImlhdCI6MTcwNzg3NDk1MCwiZXhwIjoxNzA4NDc5NzUwfQ.jT769o1kr5hTlqc173eNV3dipPl5rhPUSRt9gW1mDUQ
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Y2MyMWFkYjc2OTBmYmVlMGJmZDY1NCIsImlhdCI6MTcwNzg3Njk2OCwiZXhwIjoxNzA4NDgxNzY4fQ.jtqT1zHav0JfqIGe-vcRj0uIJjXpDlp3eEosdVdUxSw
   prefix: buyer
 metaSortKey: -1707272707368
 isPrivate: false

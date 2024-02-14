@@ -1,7 +1,7 @@
 _id: req_845edfb8d99942cc95d3c5146f168e8f
 type: Request
 parentId: fld_8597592212ce484bb12b0f176cff8185
-modified: 1707874761712
+modified: 1707876706948
 created: 1707098472259
 url: http://localhost:4001/api/v1/register
 name: register
@@ -11,11 +11,11 @@ body:
   mimeType: multipart/form-data
   params:
     - name: name
-      value: kinoshita
+      value: garcia
       id: pair_c4ee65d9f4b24e33b705019435aed080
     - id: pair_540ec93f1e3a48bba2b0484f20a331e7
       name: email
-      value: kinoshita@gmail.com
+      value: garcia@gmail.com
       description: ""
     - id: pair_598dbd2447824991b6098f9c5d349102
       name: password
@@ -30,11 +30,11 @@ body:
         }
       description: ""
       type: file
-      fileName: C:\Users\pc\Downloads\pic1.jpg
+      fileName: C:\Users\pc\Downloads\pic3.jpg
       multiline: true
     - id: pair_5bf4c2cabb3c4f50b3b860c3fd079f54
       name: role
-      value: buyer
+      value: seller
       description: ""
 parameters: []
 headers:
