@@ -1,0 +1,30 @@
+_id: req_c2436fefee974a2590f19f445f839a7c
+type: Request
+parentId: fld_8597592212ce484bb12b0f176cff8185
+modified: 1707270821061
+created: 1707270523245
+url: http://localhost:4001/api/v1/password/forgot
+name: forgot password
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "ryou@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1707270523245
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,44 @@
+_id: req_3684f1a0975f4621821ddb9386cec5db
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699775094637
+created: 1699761132278
+url: http://localhost:4001/api/v1/register
+name: REGISTER USER
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: Ryou
+      id: pair_efb2035e1d7a45c6825378561fa12707
+    - id: pair_ed93fd0988c74b0397b4f247816e4518
+      name: email
+      value: user3@gmail.com
+      description: ""
+    - id: pair_6ca52942712e413ba3a7308fd06810d3
+      name: password
+      value: PASSWORD
+      description: ""
+    - id: pair_e29e0768800d4f04babecd6c7a167bcd
+      name: avatar
+      value: ""
+      description: ""
+      type: file
+      fileName: C:\Users\pc\Pictures\5.11.21 - Manila Bay\RGK_1950.JPG
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699761132278
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

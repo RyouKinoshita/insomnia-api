@@ -1,0 +1,31 @@
+_id: req_a5399d5876de4c5092f1a9e1da27ac59
+type: Request
+parentId: fld_5ffcad3e1e684f7daa09283346fd29ce
+modified: 1696900559991
+created: 1696900282741
+url: http://localhost:4001/api/v1/password/reset/(puttokenhere)
+name: password reset
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "putpasswordhere",
+    	"confirmPassword": "confirm password"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696900282741
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

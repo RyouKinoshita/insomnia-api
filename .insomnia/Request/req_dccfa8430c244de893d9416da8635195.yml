@@ -1,0 +1,52 @@
+_id: req_dccfa8430c244de893d9416da8635195
+type: Request
+parentId: fld_5ffcad3e1e684f7daa09283346fd29ce
+modified: 1696469495866
+created: 1696467974494
+url: http://localhost:4001/api/v1/product/new
+name: add product
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+            "name" : "Kauffman Orchards Homegrown McIntosh Apples",
+            "price" : 2.75,
+            "description" : "McIntosh is a pretty red/green apple with white flesh Homegrown in Kauffman's orchard in healthy Lancaster County soil McIntosh apples are famous for snacking, pies, salads, and applesauce Protected with soft, high-density foam for safe shipping to your door Not for sale to California, Oregon, or Washington due to state laws governing fresh produce",
+            "ratings" : 5,
+            "images" : [
+                {
+                    "public_id" : "products/cewwnab3ngnpncdrjpeb",
+                    "url" : "https://res.cloudinary.com/dpl48uc15/image/upload/v1696469032/products/channels4_profile_kduqec.jpg"
+                },
+                {
+                    "public_id" : "products/yu0311tvvfa7q4kxmxfm",
+                    "url" : "https://res.cloudinary.com/dpl48uc15/image/upload/v1696469020/products/zacktabudlo_xbvtp1.jpg" 
+                },
+                {
+                    "public_id" : "products/gaphehlg4nkzxf1k291d",
+                    "url" : "https://res.cloudinary.com/dgneiaky7/image/upload/v1638600229/products/gaphehlg4nkzxf1k291d.png"
+                }
+        ],
+            "category" : "Food",
+            "seller" : "Kauffman's Fruit Farm & Market",
+            "stock" : 500,
+            "numOfReviews" : 1,
+            "reviews": []
+        }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696467974494
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,40 @@
+_id: req_3193f9d5004545cba2e523d178857c77
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699772658663
+created: 1699772366347
+url: http://localhost:4001/api/v1/service/new
+name: ADD SERVICE
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: >-
+    {
+    	"name":"Project Management Package",
+    	"price":15000,
+    	"description":"We handle your critical and time-bound projects, providing you with the outcomes you desire exactly when you need them.",
+    	"ratings":4,
+    	"images":[
+    		{
+    			"public_id":"services/proj_mngmt_b3iaxi.avif",
+    			"url":"https://res.cloudinary.com/dljixcnvk/image/upload/v1699771963/services/proj_mngmt_b3iaxi.avif"
+    		}
+    	],
+    	"category":"Project Management"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699772366347
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

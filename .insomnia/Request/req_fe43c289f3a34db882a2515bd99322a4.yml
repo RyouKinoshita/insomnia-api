@@ -1,0 +1,31 @@
+_id: req_fe43c289f3a34db882a2515bd99322a4
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699773451930
+created: 1699773367417
+url: http://localhost:4001/api/v1/me/update
+name: UPDATE PROFILE
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "Yencie Tomas",
+    	"email": "user2@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699773367417
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

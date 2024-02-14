@@ -1,0 +1,31 @@
+_id: req_8a09102b4e98434bbf0926b6f15c232a
+type: Request
+parentId: fld_5ffcad3e1e684f7daa09283346fd29ce
+modified: 1696901896727
+created: 1696901296481
+url: http://localhost:4001/api/v1/password/update
+name: update password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"oldPassword": "oldpassword",
+    	"password": "newpassword"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696901296481
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

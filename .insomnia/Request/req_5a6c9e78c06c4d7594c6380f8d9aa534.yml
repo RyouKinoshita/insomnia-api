@@ -1,0 +1,32 @@
+_id: req_5a6c9e78c06c4d7594c6380f8d9aa534
+type: Request
+parentId: fld_8597592212ce484bb12b0f176cff8185
+modified: 1707270997645
+created: 1707270949100
+url: "http://localhost:4001/api/v1/password/reset/cb2f2e0b9c6efbf19b82f3803209a\
+  43d86f513e1 "
+name: reset password
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"password": "123456789",
+    	"confirmPassword": "123456789"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1707270949100
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

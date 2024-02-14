@@ -1,0 +1,26 @@
+_id: req_4e3a2b905b714af6b20a1be7b881dce3
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1700461007214
+created: 1700458182167
+url: localhost:4001/api/v1/admin/service
+name: ADMIN GET SERVICES
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NDIyNjM5YjE3YmQwMDk0YmVjODZkYiIsImlhdCI6MTcwMDQ1OTgyMSwiZXhwIjoxNzAxMDY0NjIxfQ.3qqUjybLEi_O7ScMTHZ7OmQA3BiBqNQ5-_jjjUS0Tqs
+  prefix: admin
+metaSortKey: -1700458182167
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

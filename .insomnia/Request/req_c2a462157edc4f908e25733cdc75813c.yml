@@ -1,0 +1,23 @@
+_id: req_c2a462157edc4f908e25733cdc75813c
+type: Request
+parentId: fld_5ffcad3e1e684f7daa09283346fd29ce
+modified: 1696901075875
+created: 1696900881200
+url: http://localhost:4001/api/v1/me
+name: user profile
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696900881200
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

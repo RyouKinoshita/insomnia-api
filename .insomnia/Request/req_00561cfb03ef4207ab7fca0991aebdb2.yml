@@ -1,0 +1,53 @@
+_id: req_00561cfb03ef4207ab7fca0991aebdb2
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699767658255
+created: 1699767394281
+url: localhost:4001/api/v1/register
+name: New Request
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - id: pair_476a5c1d0f31409e80f074c8e5062b8f
+      name: name
+      value: Ryou Kinoshita
+      description: ""
+    - id: pair_13ec53d7c84d47d3af9067e5584efd8e
+      name: email
+      value: user3@gmail.com
+      description: ""
+    - id: pair_76ed4dc0f6dd4995875784c67a13eb29
+      name: password
+      value: PASSWORD
+      description: ""
+    - id: pair_f303800006cc4cb5b8af3b8c73bfb3cd
+      name: avatar
+      value: >-
+        {
+        	"public_id": "profiles/cat_thshs4.jpg",
+        		"url": "https://res.cloudinary.com/dljixcnvk/image/upload/v1699761705/profiles/cat_thshs4.jpg"
+        }
+      description: ""
+      type: text
+      multiline: application/json
+    - id: pair_395b05424603457086afe40274c801a4
+      name: role
+      value: admin
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699767394281
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

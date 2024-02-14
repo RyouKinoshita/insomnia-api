@@ -1,0 +1,31 @@
+_id: req_0794938dea0c4d3493e6857d2fd27954
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699769920171
+created: 1699759053989
+url: localhost:4001/api/v1/login
+name: LOGIN USER
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"user2@gmail.com",
+    	"password":"PASSWORD"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699759053990
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

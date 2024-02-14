@@ -1,0 +1,23 @@
+_id: req_e1ab2f490801447382fa84a51f917f2b
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699759166235
+created: 1699759153851
+url: http://localhost:4001/api/v1/logout
+name: LOGOUT USER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699759153851
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

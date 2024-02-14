@@ -1,0 +1,53 @@
+_id: req_845edfb8d99942cc95d3c5146f168e8f
+type: Request
+parentId: fld_8597592212ce484bb12b0f176cff8185
+modified: 1707268881127
+created: 1707098472259
+url: http://localhost:4001/api/v1/register
+name: register
+description: ""
+method: POST
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: ryou
+      id: pair_c4ee65d9f4b24e33b705019435aed080
+    - id: pair_540ec93f1e3a48bba2b0484f20a331e7
+      name: email
+      value: ryou@gmail.com
+      description: ""
+    - id: pair_598dbd2447824991b6098f9c5d349102
+      name: password
+      value: "12345678"
+      description: ""
+    - id: pair_cd051f3613754a408134af342f4246d4
+      name: avatar
+      value: >-
+        {
+        	"public_id": "zacktabudlo_ep1j2t",
+        	"url": "https://res.cloudinary.com/dpl48uc15/image/upload/v1696471437/avatars/zacktabudlo_ep1j2t.jpg"
+        }
+      description: ""
+      type: file
+      fileName: C:\Users\pc\Downloads\pic3.jpg
+      multiline: true
+    - id: pair_5bf4c2cabb3c4f50b3b860c3fd079f54
+      name: role
+      value: user
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1707098472259
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

@@ -1,0 +1,23 @@
+_id: req_47be8b4a8dcf47bba774ef29e10b41e7
+type: Request
+parentId: fld_dd72005f312440b0a530d410394b849d
+modified: 1699774603483
+created: 1699773843749
+url: http://localhost:4001/api/v1/admin/user/65421812f1c876332e815391
+name: ADMIN GET SINGLE USER
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1699773843749
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

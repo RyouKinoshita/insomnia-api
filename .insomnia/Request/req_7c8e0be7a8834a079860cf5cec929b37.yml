@@ -1,0 +1,30 @@
+_id: req_7c8e0be7a8834a079860cf5cec929b37
+type: Request
+parentId: fld_5ffcad3e1e684f7daa09283346fd29ce
+modified: 1696898308681
+created: 1696898178269
+url: http://localhost:4001/api/v1/password/forgot
+name: password forgot
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email": "you@gmail.com"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication: {}
+metaSortKey: -1696898178269
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
