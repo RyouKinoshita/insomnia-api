@@ -1,0 +1,41 @@
+_id: req_b77a2b1bd0994cb885dae29e8641ba9f
+type: Request
+parentId: fld_8597592212ce484bb12b0f176cff8185
+modified: 1707879630921
+created: 1707876306415
+url: http://localhost:4001/api/v1/admin/user/65cc233b9e530c32149631e4
+name: admin get single user details
+description: ""
+method: PUT
+body:
+  mimeType: multipart/form-data
+  params:
+    - name: name
+      value: garcia
+      id: pair_d4253a3d348141339cfa4ddcb1a8c1b5
+    - id: pair_f27ee8c10f0b4b54bf297e70c80ffb02
+      name: email
+      value: garcia@gmail.com
+      description: ""
+    - id: pair_bd8380a443e040c0a0d5b37b1c23ba92
+      name: role
+      value: buyer
+      description: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: multipart/form-data
+  - name: User-Agent
+    value: insomnia/2023.5.8
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Y2MyMzNiOWU1MzBjMzIxNDk2MzFlNCIsImlhdCI6MTcwNzg3OTMwOSwiZXhwIjoxNzA4NDg0MTA5fQ.XH4dzfAIiBBuxLNsqbUS3AoMZpV7BVmAJ4QggDQfIac
+  prefix: admin
+metaSortKey: -1707876306415
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
