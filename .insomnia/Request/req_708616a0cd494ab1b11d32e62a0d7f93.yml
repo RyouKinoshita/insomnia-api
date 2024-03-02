@@ -1,0 +1,26 @@
+_id: req_708616a0cd494ab1b11d32e62a0d7f93
+type: Request
+parentId: fld_8597592212ce484bb12b0f176cff8185
+modified: 1709395461177
+created: 1709297140626
+url: http://localhost:4001/api/v1/admin/users/sellers
+name: get user with "seller" role
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: User-Agent
+    value: Insomnia/2023.5.7
+authentication:
+  type: bearer
+  token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1Y2MxOTdhZWM5ZjkzMDJlNDgwNjYwZSIsImlhdCI6MTcwOTM3MTE0MCwiZXhwIjoxNzA5OTc1OTQwfQ.9v9rC5WCWOu4HANINGduBulbp1inBvXMcoGZYLNtSuw
+  prefix: admin
+metaSortKey: -1709297140626
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

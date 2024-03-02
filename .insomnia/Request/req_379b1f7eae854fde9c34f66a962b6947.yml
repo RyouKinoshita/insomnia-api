@@ -1,7 +1,7 @@
 _id: req_379b1f7eae854fde9c34f66a962b6947
 type: Request
 parentId: fld_8597592212ce484bb12b0f176cff8185
-modified: 1707879302598
+modified: 1707914566563
 created: 1707098438586
 url: localhost:4001/api/v1/login
 name: login
@@ -11,7 +11,7 @@ body:
   mimeType: application/json
   text: |-
     {
-    	"email":"garcia@gmail.com",
+    	"email":"ryou@gmail.com",
     	"password":"12345678"
     }
 parameters: []
